@@ -1,0 +1,44 @@
+#img{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    max-width: 200px;
+    height: 200px;
+    background: black;
+    background: radial-gradient(yellow, lightblue);
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 30% 0;
+}
+
+#cart-count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+#product{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+#button{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
