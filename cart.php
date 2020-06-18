@@ -6,7 +6,7 @@ require_once ("php/component.php");
 
 $db = new CreateDb("productdb", "producttb");
 
-if (isset($_POST['remove'])){
+if (isset($_GET['action'])){
     if ($_GET['action'] == "remove"){
         foreach ($_SESSION['cart'] as $key => $value){
             if ($value['product_id'] == $_GET['id']){
